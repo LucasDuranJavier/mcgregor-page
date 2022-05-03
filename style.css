@@ -1,0 +1,353 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	/*background: pink; //#FFFFFF; url(imagenes/fondo1.jpg) repeat-x right top;*/
+        font-family: Fantasy;
+	font-size: 16px;
+	color: #3AF109;
+}
+
+
+h1, h2, h3 {
+	margin: 2;
+	padding: 2;
+	font-weight: normal;
+	color: #06B91E;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	color: #0740F3;
+}
+
+a:hover {
+}
+
+/* Header */
+
+header {
+	width: 100%;
+	height: 300px;
+
+	/*background: url(images/Conor.jpg) no-repeat;*/
+}
+#img_header{
+	width: 100%;
+	height: 300px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Menu */
+
+nav {
+	width: 100%;//940px;
+	height: 49px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+nav li {
+	float: left;
+	width:16%;
+}
+
+nav a {
+	display: block;
+	width: 100%;//160px;
+	height: 40px;
+	padding-top: 16px;
+	text-decoration: overline;
+	text-align: center;
+	font-family: Fantasy;
+	font-size: 18px;
+	font-weight: bold;
+	color: #E5D533;
+	border: 1px black solid;
+}
+
+nav a:hover, nav .current_page_item a {
+	/*background: #659CEF url(images/Campeon.jpg) repeat-x left bottom;*/
+	text-decoration: none;
+}
+
+nav .current_page_item a {
+	/*background: #FBFBFC url(images/Titulos.jpg) repeat-x left bottom;*/
+	padding-left: 0;
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+}
+/*
+#page-bgtop {
+	padding: 20px px;
+}
+
+#page-bgbtm {
+}
+*/
+/* Content */
+
+main {
+	float: left;
+	width: 620px;
+	padding: 30px 0px 0px 0px;
+}
+iframe{
+	/*margin-left: 150px;*/
+	width: 100%; 
+	height:360px;
+}
+.post {
+	margin-bottom: 15px;
+}
+
+.post-bgtop {
+}
+
+.post-bgbtm {
+}
+
+.post .title {
+	margin-bottom: 10px;
+	padding: 12px 0 0 0px;
+	letter-spacing: -.5px;
+	color: #F39607;
+}
+
+.post .title a {
+	color: #16C90A;
+	border: none;
+}
+
+.post .meta {
+	height: 30px;
+	background: #D8E7FE;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	font-family: Fantasy;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.post .meta .date {
+	float: left;
+	height: 24px;
+	padding: 3px 15px;
+	color: #16C90A;
+}
+
+.post .meta .posted {
+	float: left;
+	height: 24px;
+	padding: 3px 15px;
+	background: #A8CF64;
+	color: #FFFFFF;
+}
+
+.post .meta a {
+	color: #FFFFFF;
+}
+
+.post .entry {
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.links {
+	padding-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* Sidebar */
+
+aside {
+	float: right;
+	width: 280px;
+	padding: 0px;
+	color: #0A52C9;
+	background="imagenes/fondo.jpg" 
+	margin-top: 20px;
+}
+
+aside ul {
+	margin: 0;
+	padding: 0;
+	list-style: square inside url("fondo.jpg");
+}
+
+aside li {
+	margin: 0;
+	padding: 0;
+	border-left: 0px solid #E2E2E2;
+}
+
+aside li ul {
+	margin: 0px 0px;
+	padding-bottom: 10px;
+}
+
+aside li li {
+	line-height: 35px;
+	border-bottom: 1px dashed #D1D1D1;
+	margin: 0px 30px;
+	border-left: none;
+}
+
+aside li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+aside h2 {
+	height: 38px;
+	padding-left: 30px;
+	letter-spacing: -.5px;
+	font-size: 1.8em;
+}
+
+aside p {
+	margin: 0 0px;
+	padding: 0px 30px 20px 30px;
+	text-align: justify;
+}
+
+aside a {
+	border: none;
+}
+
+aside a:hover {
+	text-decoration: underline;
+	color: #16C90A;
+}
+
+/* Calendar */
+
+#calendar {
+}
+
+#calendar_wrap {
+	padding: 20px;
+}
+
+#calendar table {
+	width: 100%;
+}
+
+#calendar tbody td {
+	text-align: center;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+/* Footer */
+
+footer {
+	height: 50px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	background: #D8E7FE;
+	border-top: 1px solid #D3DEF0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p {
+	margin: 0;
+	padding-top: 20px;
+	line-height: normal;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	color: black;
+}
+
+/* ------- TABLA ------- */
+
+table {  
+  /*background-color: #58ACFA;*/
+  padding: 15px 23px;  
+  border: 10px double #0B0B61;
+  border-radius: 20px;	
+  margin-left:40px;
+}
+
+table thead th {
+  /*background-color: #0B0B61;*/
+  	color: #07EA0D;
+  	font-size: 20px;
+	font-weight: bold;
+}
+
+table td,
+table th {  
+  padding: 10px 15px;
+  border: 2px solid #0B0B61;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+
+/*-------FORMULARIO ---*/
+
+.formulario {
+  background-color: #58ACFA;
+  padding: 15px 23px;  
+  border: 10px double #0B0B61;
+  border-radius: 20px;
+  width: 80%;
+  margin: 50px;
+}
+
+.separar{
+	margin: 20px;
+}	
+#boton{
+	margin: 20px;
+	padding: 20px 100px;
+}
